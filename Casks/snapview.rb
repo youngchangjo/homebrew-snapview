@@ -5,7 +5,7 @@ cask "snapview" do
   url "https://github.com/youngchangjo/SnapView/releases/download/v#{version}/SnapView.dmg",
       verified: "github.com/youngchangjo/SnapView/"
   name "SnapView"
-  desc "Fast image viewer for macOS"
+  desc "Fast image viewer"
   homepage "https://snapview.snapworkslab.com/"
 
   livecheck do
