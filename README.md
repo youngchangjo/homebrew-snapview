@@ -7,10 +7,11 @@ brew tap youngchangjo/snapview
 brew install --cask snapview
 ```
 
-Or install it directly:
+If Homebrew asks you to trust this tap first:
 
 ```bash
-brew install --cask youngchangjo/snapview/snapview
+brew trust youngchangjo/snapview
+brew install --cask snapview
 ```
 
 This tap uses the signed and notarized DMG from the public SnapView GitHub release.
