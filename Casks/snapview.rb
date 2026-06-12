@@ -13,7 +13,7 @@ cask "snapview" do
     strategy :sparkle, &:short_version
   end
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "SnapView.app"
 
