@@ -1,6 +1,6 @@
 cask "snapview" do
-  version "2.5.0"
-  sha256 "0344189804c3778836658c749675e0a074ea525288d3317f9f9e3b0eeb131406"
+  version "2.5.1"
+  sha256 "c5bbf9aff5ef43ca4de6b648fe68d4acb0dd42ecd5ca845fe48aeb824ff6f33b"
 
   url "https://github.com/youngchangjo/SnapView/releases/download/v#{version}/SnapView.dmg",
       verified: "github.com/youngchangjo/SnapView/"
