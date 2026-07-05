@@ -18,4 +18,12 @@ cask "snapview" do
   app "SnapView.app"
 
   uninstall quit: "YoungchangJo.SnapView"
+
+  zap trash: [
+    "~/Library/Caches/YoungchangJo.SnapView",
+    "~/Library/HTTPStorages/YoungchangJo.SnapView",
+    "~/Library/HTTPStorages/YoungchangJo.SnapView.binarycookies",
+    "~/Library/Preferences/YoungchangJo.SnapView.plist",
+    "~/Library/WebKit/YoungchangJo.SnapView",
+  ]
 end
